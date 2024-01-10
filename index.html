@@ -3,9 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>student</title>
+    <link rel="stylesheet" href="st2.css">
 </head>
 <body>
-    
+        <header>
+            <h1>RAILWAY CONCESSION FORM</h1>
+        </header>
+         <main>
+        <div class="main">
+            <div class="box1">
+                <p class="write">1.ERP No.</p>
+                <br>
+                <p class="write">2.Full Name</p>
+                <br>
+                <p class="write">3.Sex</p>
+                <br>
+                <p class="write">4.Address</p>
+                <br>
+                <p class="write">5.Contact number</p>
+                <br>
+                <p class="write"> 6.D.O.B</p>
+                <br>
+                <p class="write">7.Class Roll No.</p>
+                <br>
+                <p class="write">8.Name of Rly </p>
+                <br>
+                <p class="write">10.name of stn</p>
+                <br>
+                <p class="write">11.Class of ticket</p>
+                <br>
+                <p class="write"> 12.Duration</p>
+                <br>
+            </div>
+        <div class="box2">
+            <form action="">
+                <!-- erp -->
+                  <p> <input type="number" class="boxes"></p>
+                  <br>
+                  <!-- name -->
+                  <p><input type="text" class="boxes"></p>
+                  <br>
+                  <!-- sex -->
+                  <p> <label for="male"><input type="radio" class="boxes" name="sex" id="male">male
+                  </label>
+                  <label for="female"><input type="radio" class="boxes" name="sex"id="female">female</label>
+                  </p>
+                  <!-- /address -->
+                  <br>
+                  <P><input type="text"class="boxes"></P>
+                  <br>
+                  <!-- contact -->
+                  <p><input type="number" class="boxes"></P>
+                  <br>
+                  <!-- dob -->
+                  <p><input type="date" class="boxes"></p>
+                  <br>
+                  <!-- class & roll -->
+                  <p><select name="year" class="boxes">
+                    <option value="1">F.E</option>
+                    <Option value="2">S.E</Option>
+                    <Option value="3">T.E</Option>
+                    <Option value="3">B.E</Option>
+                  </select>
+                  <select name="division" class="boxes">
+                    <option value="9">A</option>
+                    <option value="10">B</option>
+                    <option value="11">C</option>
+                    <option value="12">D</option>
+                    <option value="13">E</option>
+                    <option value="14">F</option>
+                  </select>
+                  <input type="number" class="boxes" placeholder="roll no">
+                 </p>
+                 <br>
+                  <!-- name rail -->
+                  <p><label for="central">
+                  <input type="radio" name="rail" id="central"class="boxes">central Rly
+                  </label>
+                  <label for="western">
+                    <input type="radio" name="rail" id="western" class="boxes">western Rly
+                  </label>
+                 </p>
+                  <br>
+                  <!-- station -->
+                  <p>
+                 <input type="text" class="boxes">
+                 </p>
+                   <br>
+                   <!-- classs -->
+                   <p>
+                   <label for="1">
+                    <input type="radio" class="boxes" id="1" name="paisa"> 1st class
+                   </label>
+                   <label for="2">
+                    <input type="radio" id="2" class="boxes" name="paisa"> 2nd class
+                   </label></P>
+                   <br>
+                   <!-- duration -->
+                   <p>
+                   <label for="m">
+                    <input type="radio" name="time" id="m" class="boxes"> monthly
+                   </label>
+                   <label for="q">
+                    <input type="radio" name="time"id="q"class="boxes"> quaterly
+                   </label>
+                 </p>
+            </form>
+        </div>
+    </div>
+</main>
 </body>
 </html>

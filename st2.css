@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-style: italic;
+    font-weight:bold;
+   text-align: center;
+   text-shadow:1px 1px 2px red;  
+}
+.main{
+    margin-top: 2vh;
+    display: flex; 
+}
+.box1{
+    width:35%; 
+    margin-left: 10%;
+    font-size: larger;
+    /* background-color: rgb(200, 196, 196); */
+}
+.box2{
+    width: 45%;
+    display: flex;
+    font-size: larger; 
+    /* background-color: lightpink; */
+}
+.boxes{
+    margin-top: 1vh;
+    padding: 4px;
+}
+.write{
+    margin-top: 0.8vh;
+    font-size: larger;  
+}
